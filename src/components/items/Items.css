@@ -1,0 +1,13 @@
+.items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    margin: -40px auto 260px;
+    background: rgb(221, 254, 255);
+    box-shadow: 2px 2px 32px 2px rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 10px;
+}

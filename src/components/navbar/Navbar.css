@@ -1,0 +1,25 @@
+.navbar-wrapper {
+    height: 100px;
+    text-align: end;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    position: fixed;
+    left:0;
+    right: 0;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgba(255,255,255,0), rgba(255, 255, 255, .1));
+    z-index: 100;
+}
+.nav-link {
+    color: rgb(96, 1, 1);
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.8rem;
+    transition: 0.2s;
+}
+.nav-link:hover {
+    color: rgb(130, 62, 62);
+}
+.length-badge {
+    font-size: 0.9rem;
+}
