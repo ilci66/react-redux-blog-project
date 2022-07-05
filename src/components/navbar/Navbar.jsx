@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 import './Navbar.css'
-import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { selectCart } from '../../slice/shopSlice';
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   const [cartQuantity, setCartQuantity] = useState(0);
 
   useEffect(() => {
-    if(Array.isArray(cart) && cart.length >= 0){
+    if(cart.length >= 0){
       let n = 0;
       cart.map(x => n += x.quantity)
       setCartQuantity(n)

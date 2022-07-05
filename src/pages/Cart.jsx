@@ -1,11 +1,11 @@
 import React from 'react'
 import Banner from '../components/banner/Banner'
-import InCart from '../components/InCart/InCart'
+import ItemsInCart from '../components/inCart/InCart'
 
 const Cart = () => {
   return (<>
     <Banner text="Cart"/>
-    <InCart />
+    <ItemsInCart />
   </>)
 }
 

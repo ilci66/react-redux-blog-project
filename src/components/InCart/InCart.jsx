@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { removeFromCart, clearCart, selectCart, addItemToCart, decrementQuantity } from '../../slice/shopSlice'
 import { Link } from 'react-router-dom'
 
-const InCart = () => {
+const ItemsInCart = () => {
 
   const dispatch = useDispatch();
   const cart = useSelector(selectCart)
@@ -27,4 +27,4 @@ const InCart = () => {
   )
 }
 
-export default InCart
+export default ItemsInCart
