@@ -1,2 +1,2 @@
 ## React Redux E-Commerce Website Blog Project
-*   Project explanation will be written later
+I created this project to showcase the recent changes in redux. With the redux toolkit it's now even easier to user redux with react with less boilerplate code. You can find the blog post [here](https://wwizard-blog.netlify.app/tech/react-redux-tutorial-with-a-simple-project)
